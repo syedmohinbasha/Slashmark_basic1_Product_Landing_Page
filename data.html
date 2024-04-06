@@ -1,0 +1,43 @@
+ <head>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+
+<div class="product-info" >
+      <h2><center>Product Features</center></h2>
+	  
+      <ul>
+	    <li>Model : 12223</li>
+        <li>RAM   : 8GB</li>
+        <li>ROM   : 128GB</li>
+        <li>Color : Pacific Night</li>
+      </ul>
+      <p>"The iQOO Z7s 5G is a cutting-edge smartphone that seamlessly combines sleek design with powerful performance. With its advanced 5G capabilities, this device ensures lightning-fast connectivity for all your needs. The stunning display delivers vibrant colors and sharp details, providing an immersive viewing experience. Packed with innovative features and a high-performance processor, the iQOO Z7s 5G is your go-to companion for productivity and entertainment on the go. Capture every moment with the impressive camera system, and enjoy the convenience of long-lasting battery life. Elevate your mobile experience with the iQOO Z7s 5G – where style meets functionality."</p>
+      <div class="buttons">
+        <button onclick="addToCart()">Buy Now</button>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+      <div class="message" id="cartMessage"></div>
+    </div>
+   
+	
+	
+	<!-- Footer Section -->
+  <footer>
+  <div style="text-align:center">
+	<a href ="Basic_1.html"  >Home</a>
+  <a href ="gallery.html">Gallery</a>
+  </div>
+	<br/></br>
+    <p >&copy; 2024 Slashmark_Basic. All rights reserved.</p>
+  </footer>
+  <script>
+  function addToCart() {
+      var message = document.getElementById('cartMessage');
+      message.textContent = 'Added to Cart!';
+    }
+  </script>
+  
+  
+ </body>
